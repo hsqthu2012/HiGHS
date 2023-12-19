@@ -2,19 +2,18 @@
 #define HCONFIG_H_
 
 #define FAST_BUILD
-/* #undef ZLIB_FOUND */
 #define CMAKE_BUILD_TYPE "RELEASE"
-#define HiGHSRELEASE
+#define CMAKE_INSTALL_PREFIX "/usr/local"
 /* #undef HIGHSINT64 */
 /* #undef HIGHS_HAVE_MM_PAUSE */
 #define HIGHS_HAVE_BUILTIN_CLZ
 /* #undef HIGHS_HAVE_BITSCAN_REVERSE */
 
-#define HIGHS_GITHASH "b66d596c6"
-#define HIGHS_COMPILATION_DATE "2022-10-10"
+#define HIGHS_GITHASH "006c08c5a-dirty"
+#define HIGHS_COMPILATION_DATE "2023-12-17"
 #define HIGHS_VERSION_MAJOR 1
-#define HIGHS_VERSION_MINOR 2
-#define HIGHS_VERSION_PATCH 2
-/* #undef HIGHS_DIR */
+#define HIGHS_VERSION_MINOR 6
+#define HIGHS_VERSION_PATCH 0
+#define HIGHS_DIR ""
 
 #endif /* HCONFIG_H_ */
